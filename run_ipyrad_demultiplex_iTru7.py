@@ -3,10 +3,10 @@ import ipyrad.analysis as ipa
 
 
 # demux outer i7s to plate1-16
-outer1 = ip.Assembly("Plates_1-16_demultiplex_itru7_combined_reads")
-outer1.params.project_dir = "/scratch/knowlesl_root/knowlesl1/plwood/Melanoplines_plates1-16"
-outer1.params.raw_fastq_path = "/scratch/knowlesl_root/knowlesl1/plwood/Melanoplines_plates1-16/Melanoplies_plates1-16_rawdata_combined_reads/All_libraries*R*.gz"
-outer1.params.barcodes_path = "/scratch/knowlesl_root/knowlesl1/plwood/Melanoplines_plates1-16/melanoplines_plate1–16_itru7_barcodes.tsv"
+outer1 = ip.Assembly("demultiplexed_haustorius_reads")
+outer1.params.project_dir = "/scratch/bradburd_root/bradburd1/hancockz/haustorius_seqs"
+outer1.params.raw_fastq_path = "/scratch/bradburd_root/bradburd1/hancockz/haustorius_seqs/fastqs_9284-ZH/9284-ZH_*fastq.gz"
+outer1.params.barcodes_path = "/home/hancockz/shovel-bugs/Enzyme_barcodes.txt"
 outer1.params.datatype = 'pairddrad'
 
 # important: set hackers params to demux on i7
