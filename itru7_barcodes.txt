@@ -1,0 +1,6 @@
+pool1  CGTTATGC
+pool2  GATACTGG
+pool3  CTACTTGG
+pool4  CATACCAC
+pool5  ACATTGCG
+pool6  TGATCGGA
