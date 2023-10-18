@@ -11,7 +11,7 @@
 
 source activate ipyrad
 
-python run_ipyrad_demultiplex_itru7.py
+python run_ipyrad_demultiplex_iTru7.py
 
 conda deactivate
 
