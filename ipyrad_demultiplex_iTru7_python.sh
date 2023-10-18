@@ -1,4 +1,4 @@
-#1/bin/bash
+#!/bin/bash
 #SBATCH --time=10:00:00   # walltimea
 #SBATCH --nodes=1
 #SBATCH --ntasks=15
