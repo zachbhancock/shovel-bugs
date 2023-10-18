@@ -10,7 +10,11 @@ mail-type=BEGIN
 mail-type=END
 mail-type=FAIL
 
+source activate myconda
+
 python run_ipyrad_demultiplex_itru7.py
+
+conda deactivate
 
 cd $SLURM_SUBMIT_DIR
 
