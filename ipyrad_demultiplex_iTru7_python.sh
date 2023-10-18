@@ -5,9 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=10G   # memory per CPU
 #SBATCH --mail-user=hancockz@umich.edu   # email address
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-type=FAIL
+#SBATCH --mail-type=BEGIN,END,FAIL
 
 source activate ipyrad
 
