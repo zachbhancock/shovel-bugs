@@ -10,7 +10,7 @@ mail-type=BEGIN
 mail-type=END
 mail-type=FAIL
 
-source activate myconda
+source activate ipyrad
 
 python run_ipyrad_demultiplex_itru7.py
 
