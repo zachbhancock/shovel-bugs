@@ -3,7 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=15
 #SBATCH --cpus-per-task=1
-#SBATCH --mem-per-cpu=10G   # memory per CPU
+#SBATCH --mem-per-cpu=5G   # memory per CPU
 #SBATCH --mail-user=hancockz@umich.edu   # email address
 #SBATCH --mail-type=BEGIN,END,FAIL
 
