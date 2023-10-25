@@ -2,11 +2,11 @@
 newdata                        ## [0] [assembly_name]: Assembly name. Used to name output directories for assembly steps
 /scratch/bradburd_root/bradburd1/hancockz/haustorius_seqs     ## [1] [project_dir]: Project dir (made in curdir if not present)
 /scratch/bradburd_root/bradburd1/hancockz/haustorius_seqs/fastqs_9284-ZH/9284-ZH-1*R*.gz  ## [2] [raw_fastq_path]: Location of raw non-demultiplexed fastq files
-/home/hancockz/shovel-bugs/Enzyme_barcodes2.txt   ## [3] [barcodes_path]: Location of barcodes file
+/home/hancockz/shovel-bugs/Enzyme_barcodes.txt   ## [3] [barcodes_path]: Location of barcodes file
                                ## [4] [sorted_fastq_path]: Location of demultiplexed/sorted fastq files
 denovo                         ## [5] [assembly_method]: Assembly method (denovo, reference)
                                ## [6] [reference_sequence]: Location of reference sequence file
-pairddrad                            ## [7] [datatype]: Datatype (see docs): rad, gbs, ddrad, etc.
+pair3rad                            ## [7] [datatype]: Datatype (see docs): rad, gbs, ddrad, etc.
 TAA, AATTC                         ## [8] [restriction_overhang]: Restriction overhang (cut1,) or (cut1, cut2)
 5                              ## [9] [max_low_qual_bases]: Max low quality base calls (Q<20) in a read
 33                             ## [10] [phred_Qscore_offset]: phred Q score offset (33 is default and very standard)
