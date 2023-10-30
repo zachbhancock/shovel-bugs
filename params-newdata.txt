@@ -7,7 +7,7 @@ newdata                        ## [0] [assembly_name]: Assembly name. Used to na
 denovo                         ## [5] [assembly_method]: Assembly method (denovo, reference)
                                ## [6] [reference_sequence]: Location of reference sequence file
 pair3rad                            ## [7] [datatype]: Datatype (see docs): rad, gbs, ddrad, etc.
-TAA, AATTC                         ## [8] [restriction_overhang]: Restriction overhang (cut1,) or (cut1, cut2)
+AATT, TA                         ## [8] [restriction_overhang]: Restriction overhang (cut1,) or (cut1, cut2)
 5                              ## [9] [max_low_qual_bases]: Max low quality base calls (Q<20) in a read
 33                             ## [10] [phred_Qscore_offset]: phred Q score offset (33 is default and very standard)
 6                              ## [11] [mindepth_statistical]: Min depth for statistical base calling
