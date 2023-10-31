@@ -14,7 +14,7 @@ AATT, TA                         ## [8] [restriction_overhang]: Restriction over
 6                              ## [12] [mindepth_majrule]: Min depth for majority-rule base calling
 10000                          ## [13] [maxdepth]: Max cluster depth within samples
 0.85                           ## [14] [clust_threshold]: Clustering threshold for de novo assembly
-0                              ## [15] [max_barcode_mismatch]: Max number of allowable mismatches in barcodes
+1                              ## [15] [max_barcode_mismatch]: Max number of allowable mismatches in barcodes
 2                              ## [16] [filter_adapters]: Filter for adapters/primers (1 or 2=stricter)
 35                             ## [17] [filter_min_trim_len]: Min length of reads after adapter trim
 2                              ## [18] [max_alleles_consens]: Max alleles per site in consensus sequences
